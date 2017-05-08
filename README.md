@@ -36,7 +36,7 @@ Com isso já consegue acessar a página principal do Apache:
 [http://<IP_SERVIDOR>](http://127.0.0.1)
 
 
-![Imagem 01](https://github.com/renizgo/apache-https/Imagens/Imagem01)
+![Imagem 01](https://github.com/renizgo/apache-https/blob/master/Imagens/Imagem01.png)
 
 ## Configurando Virtual Host
 
@@ -105,7 +105,7 @@ Reinicie o serviço:
 
 Acesse a página Web e verifique o conteúdo:
 
-![Imagem02](https://github.com/renizgo/apache-https/Imagens/Imagem02)
+![Imagem02](https://github.com/renizgo/apache-https/blob/master/Imagens/Imagem02.png)
 
 ## Configurando o uso de certificado SSL no Apache
 
@@ -122,7 +122,7 @@ Gere o certificado com o seguinte comando:
 
 `openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout server01.key -out server01.crt``
 
-![Imagem03](https://github.com/renizgo/apache-https/Imagens/Imagem03)
+![Imagem03](https://github.com/renizgo/apache-https/blob/master/Imagens/Imagem03.png)
 
 Configure o virtual host para acesso HTTPS na porta 443, adicionando o conteúdo ao arquivo já criado nos passos anteriores.
 
